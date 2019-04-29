@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Только сегодня</string>
+    <string name="day_title">Подождите...</string>
+    <string name="menu">Меню</string>
+    <string name="date">Дата</string>
+    <string name="day_base"></string>
+    <string name="day_text"></string>
+    <string name="day_just_title">Только сегодня:</string>
+    <string name="day_just_text"></string>
+    <string name="data_loading">Ежедневник загружается</string>
+    <string name="action_settings">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="saved">Сохранено</string>
+    <string name="dialog_color_picker">Выбор цвета</string>
+    <string name="dialog_color_font">Цвет текста</string>
+    <string name="dialog_color_background">Цвет фона</string>
+    <string name="press_color_to_apply">Нажми на цвет для выбора</string>
+    <string name="color_scheme_dialog_title">Цветовая схема</string>
+    <string name="color_scheme_summary">Выберите цветовую схему</string>
+    <string name="color_scheme_title">Цветовая схема</string>
+    <string name="font_size_dialog_title">Размер шрифта</string>
+    <string name="font_size_summary">Выберите размер шрифта</string>
+    <string name="font_size_title">Размер шрифта</string>
+    <string name="color_scheme_default">1</string>
+    <string name="font_size_default">2</string>
+    <string name="about_text">Ежедневные медитации для выздоравливающих зависимых – людей, которые используют программу «Анонимные Наркоманы» в своем выздоровлении от зависимости.
+        \nhttp://na-russia.org</string>
+
+    <color name="font_color">#000000</color>
+    <color name="background_color">#FFFFFF</color>
+
+    <string-array name="color_scheme_entries">
+        <item>Утро</item>
+        <item>День</item>
+        <item>Вечер</item>
+        <item>Ночь</item>
+    </string-array>
+    <string-array name="color_scheme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="font_size_entries">
+        <item>Очень Маленький</item>
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+        <item>Огромный</item>
+        <item>Супер.Огромный</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <integer-array name="font_sizes">
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>28</item>
+        <item>36</item>
+    </integer-array>
+
+    <string-array name="color_schemes">
+        <item>MorningTheme</item>
+        <item>AppTheme</item>
+        <item>EveningTheme</item>
+        <item>NightTheme</item>
+    </string-array>
+        <string name="error">Ошибка!</string>
+        <string name="failed">Произошёл сбой.</string>
+        <string name="cant_load_data">Ежедневник не может быть загружен.</string>
+        <string name="try_again_later">Попробуйте еще раз чуть позже.\nЧистого дня! :)</string>
+        <string name="star">*</string>
+
+</resources>

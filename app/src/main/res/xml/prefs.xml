@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    <ListPreference
+        android:defaultValue="@string/color_scheme_default"
+        android:dialogTitle="@string/color_scheme_dialog_title"
+        android:entries="@array/color_scheme_entries"
+        android:entryValues="@array/color_scheme_values"
+        android:key="color_scheme"
+        android:summary="@string/color_scheme_summary"
+        android:title="@string/color_scheme_title" />
+    -->
+    <ListPreference
+        android:defaultValue="@string/font_size_default"
+        android:dialogTitle="@string/font_size_dialog_title"
+        android:entries="@array/font_size_entries"
+        android:entryValues="@array/font_size_values"
+        android:key="font_size"
+        android:summary="@string/font_size_summary"
+        android:title="@string/font_size_title" />
+
+    <org.na_russia.app.justfortoday.ColorPickerPreference
+        android:defaultValue="@color/font_color"
+        android:key="font_color"
+        android:title="@string/dialog_color_font" />
+    <org.na_russia.app.justfortoday.ColorPickerPreference
+        android:defaultValue="@color/background_color"
+        android:key="background_color"
+        android:title="@string/dialog_color_background" />
+
+</PreferenceScreen>
